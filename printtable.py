@@ -17,7 +17,7 @@ Print Power Table for i
     print("Power Table")
     for x in range (1, i + 1):
         print (f"{i} ^ {power} = {i**power}")
-    
+
 if __name__ == '__main__':
     multtable(1, 4, 7)
     powertable(2, 4)
